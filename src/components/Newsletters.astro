@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+import Newsletter from "@/components/Newsletter.astro";
+
+const newsletters = (await getCollection("newsletters")).sort(
+  (a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf(),
+);
+---
+
+<section>
+  <div class="prose dark:prose-invert prose-neutral mb-3">
+    <h2>Newsletter</h2>
+  </div>
+  <ul class="grid list-none gap-4 p-0">
+    {newsletters.map((newsletter) => <Newsletter newsletter={newsletter} />)}
+  </ul>
+</section>

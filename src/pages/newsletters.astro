@@ -1,0 +1,14 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import SeoPage from "@/components/SeoPage.astro";
+import NewslettersMD from "@/content/newsletters.md";
+---
+
+<BaseLayout>
+  <SeoPage slot="head" title="Newsletters" />
+  <h1 class="sr-only">Newsletters</h1>
+  <div class="prose dark:prose-invert prose-neutral">
+    <NewslettersMD />
+  </div>
+</BaseLayout>

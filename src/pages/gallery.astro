@@ -1,0 +1,14 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SeoPage from "@/components/SeoPage.astro";
+import GalleryMD from "@/content/gallery.md";
+---
+
+<BaseLayout>
+  <SeoPage slot="head" title="gallery" />
+  <h1 class="sr-only">gallery</h1>
+  <div class="prose dark:prose-invert prose-neutral">
+		<GalleryMD />
+  </div>
+</BaseLayout>
+

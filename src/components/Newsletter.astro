@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "@/lib/util";
+
+interface Props {
+  newsletter: CollectionEntry<"newsletters">;
+}
+
+const { newsletter } = Astro.props;
+---
+
+<li>
+  <a
+    href={`/newsletters/${post.id}`}
+    class="flex w-full flex-col sm:flex-row sm:items-center sm:justify-between"
+  >
+    <span class="link">{newsletter.data.title}</span>
+    <div class="text-muted-text dark:text-dark-muted-text text-sm font-normal">
+      {formatDate(newsletter.data.publicationDate)}
+    </div>
+  </a>
+</li>

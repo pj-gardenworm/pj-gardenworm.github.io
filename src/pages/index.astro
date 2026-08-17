@@ -1,0 +1,33 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import Posts from "@/components/Posts.astro";
+import Projects from "@/components/Projects.astro";
+import SeoPage from "@/components/SeoPage.astro";
+import SocialLinks from "@/components/SocialLinks.astro";
+
+import { Image } from 'astro:assets';
+import meImage from "@/assets/me.png";
+---
+
+<BaseLayout>
+  <SeoPage slot="head" />
+  <div>
+		<div class="flex justify-between gap-8">
+			<section class="prose dark:prose-invert prose-neutral">
+				<p>born in 2001</p>
+				<p>likes food, cats, pickles, cooking, lots of stuff...</p>
+				<p>current into mapping on openstreetmap</p>
+				<p>get my newsletter to keep up with my thangz -> <a>newsletter</a> &lt;-</p>
+			</section>
+			<Image src={meImage} alt="abc" width="300" />
+		</div>
+    <div class="mt-12">
+			<section class="prose dark:prose-invert prose-neutral text-right">
+				<p>find me on...</p>
+				<p>mastodon: <a href="https://aus.social/@regularbum">aus.social/@regularbum</a></p>
+				<p>email: pj [at] fruitfruit.net</p>
+			</section>
+    </div>
+  </div>
+</BaseLayout>
