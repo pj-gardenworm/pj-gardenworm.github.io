@@ -60,13 +60,19 @@ You can even get your transport card with holographic pompompurin too!
 
 ---
 
-I really love the industrial hodgepodge look of cities like taipei and taiwan
+This is the tea village [Maokong](https://www.openstreetmap.org/node/2269706911) that we went to via gondala from just outside of taipei (which had a great view of Taipei 101 on the way too!)
+
+![tea-village](tea-village.jpeg)
+![tea-villag-2](tea-village-2.jpeg)
+![taipei101](taipei101.jpeg)
+
+I really love the industrial hodgepodge look of cities like taipei (same for Hong Kong and Singapore too),
 
 ![buildings-1](buildings-1.jpeg)
 ![buildings-3](buildings-3.jpeg)
 ![buildings-2](buildings-2.jpeg)
 
-and the silly signs that end up in english
+and the silly signs that end up in english.
 
 ![snail-medium-large](snail-medium-large.jpeg)
 ![sign](sign.jpeg)
