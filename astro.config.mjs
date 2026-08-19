@@ -33,8 +33,9 @@ export default defineConfig({
       theme: "dark-plus",
     },
   },
-  site: "https://mushroomforest.github.io",
+  site: "https://pj-gardenworm.github.io",
   vite: {
     plugins: [tailwindcss()],
   },
+	base: ""
 });
