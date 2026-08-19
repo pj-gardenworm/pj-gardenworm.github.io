@@ -912,7 +912,7 @@ video {
 .prose :where(hr):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   border-color: var(--tw-prose-hr);
 
-  border-top-width: 1px;
+  border-top-width: 3px;
 
   margin-top: 3em;
 
@@ -1312,7 +1312,7 @@ video {
 
   --tw-prose-bullets: #d1d5db;
 
-  --tw-prose-hr: #e5e7eb;
+  --tw-prose-hr: var(--color-muted-text);
 
   --tw-prose-quotes: #111827;
 
@@ -1348,7 +1348,7 @@ video {
 
   --tw-prose-invert-bullets: #4b5563;
 
-  --tw-prose-invert-hr: #374151;
+  --tw-prose-invert-hr: var(--color-dark-muted-text);
 
   --tw-prose-invert-quotes: #f3f4f6;
 
