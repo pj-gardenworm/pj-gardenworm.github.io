@@ -1,15 +1,17 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-
+import { Image } from "astro:assets";
 import SeoPage from "@/components/SeoPage.astro";
 ---
 
 <BaseLayout>
-  <SeoPage slot="head" title="404: Page Not Found" />
+  <SeoPage slot="head" title="404!! Page Not Found" />
   <div class="mt-16 text-center">
-    <h2 class="mb-3 text-4xl font-bold text-balance">404: Page Not Found</h2>
-    <p class="text-balance">
-      Whatever you're looking for doesn't appear to be available. Sorry.
-    </p>
+    <h2 class="mb-3 text-4xl font-bold text-balance">
+			404 - Page Not Found
+		</h2>
+		<div class="flex items-center flex-col">
+			<Image alt="cat on a computer" src="/cat_2.png" width="200px" height="200px"/>
+		</div>
   </div>
 </BaseLayout>
