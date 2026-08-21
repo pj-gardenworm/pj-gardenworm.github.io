@@ -33,7 +33,7 @@ export default defineConfig({
       theme: "dark-plus",
     },
   },
-  site: "https://pj-gardenworm.github.io",
+  site: "https://pj-miniweb.github.io",
   vite: {
     plugins: [tailwindcss()],
   },
